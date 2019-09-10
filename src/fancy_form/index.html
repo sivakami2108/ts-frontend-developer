@@ -2,28 +2,30 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Fancy Form</title>
-
-  <!-- You may add more stuff here -->
-  <script src="script.js"></script>
-  <link href="style.css" rel="stylesheet" />
+  <!DOCTYPE html>
+<html>
+<head>
+<titlte><h3>Fancy Form</h3></title>
+<link rel="stylesheet" href="style.css">
+<style>
+body
+{
+font-family : times new roman;
+font-size : 12pt;
+letter-spacing : 2px;
+}
+</style>
 </head>
-
 <body>
-
-  <!-- You may wrap the form in your own elements if necessary. -->
-  <form onsubmit="return !1">
-    <label for="input-address">Bitcoin Address</label>
-    <input id="input-address" placeholder="16q4PinynazaMYfv24juNLkbjkDQxJo2dc" />
-
-    <label for="input-amount">Amount to send</label>
-    <input id="input-amount" placeholder="0.0000" />
-
-    <label for="input-otp">OTP Authentication</label>
-    <input type="number" id="input-otp" placeholder="SMS OTP" />
-
-    <button>SEND BTC</button>
-  </form>
+<form method="get" action="">
+<table>
+<tr>
+<td>Bitcoin Address<input id="address" type="text" value="" placeholder="ABC123!@#"></td>
+<td>Amount to send<input id="amount" type="double value="" placeholder="0000.00"></td>
+<td>OPT Authentication<input id="authentication" type="text" value="" placeholder="SMS OPT"></td>
+<td><input type="button" value="SEND BTC"></td>
+</tr>
+</table>
+</form>
 </body>
-
 </html>
